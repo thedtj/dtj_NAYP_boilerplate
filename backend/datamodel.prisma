@@ -1,0 +1,4 @@
+type Test {
+  id: ID! @unique
+  message: String!
+}

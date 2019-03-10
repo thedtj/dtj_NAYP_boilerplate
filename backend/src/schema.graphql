@@ -1,0 +1,10 @@
+#import * from './generated/prisma.graphql'
+
+type Mutation {
+  createTest(message: String!): Test!
+}
+
+type Query {
+  tests: [Test!]!
+  test(where: TestWhereUniqueInput): Test!
+}
