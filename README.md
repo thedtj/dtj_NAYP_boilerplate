@@ -2,7 +2,7 @@
 Nextjs 8.0, Apollo, Yoga-Graphql, Prisma boilerplate
 
 
-##Setup:
+## Setup:
 
 1. run `npm install` in frontend and backend folders
 2. run `prisma deploy` and connect to the db of your choice
