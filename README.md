@@ -8,7 +8,7 @@ Setup:
 2. run `prisma deploy` and connect to the db of your choice
 3. creat .env from /config/sample.env and move prisma endoint here. - `npm run prisma-deploy` to update prisma schema while using the .env
 4. in backend - `npm run dev`
-5. open localhost:4000 and run create test mutaion
+5. open localhost:4444 and run create test mutaion
 
 ```
 mutation {
