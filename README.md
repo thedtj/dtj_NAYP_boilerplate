@@ -2,11 +2,12 @@
 Nextjs 8.0, Apollo, Yoga-Graphql, Prisma boilerplate
 
 
-Setup:
+##Setup:
 
 1. run `npm install` in frontend and backend folders
 2. run `prisma deploy` and connect to the db of your choice
-3. creat /config/dev.env from /config/sample.env and move prisma endoint here from prisma.yml . - `npm run prisma-deploy` to update prisma schema while using the dev.env
+3. creat /config/dev.env from /config/sample.env and move prisma endoint here from prisma.yml .
+      Use `npm run prisma-deploy` to update prisma schema while using the dev.env
 4. in backend - `npm run dev`
 5. open localhost:4444 and create a test mutation in graphql
 
