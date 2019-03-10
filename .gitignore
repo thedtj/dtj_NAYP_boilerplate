@@ -4,6 +4,7 @@ node_modules/
 .next/
 .build/
 layout.md
+.env
 dev.env
 test.env
 prod.env
